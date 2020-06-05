@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Renew Certificate">2a192c4a0fb0b340c3e6cd8ce1050e7a</sc_cat_item>
+        <sc_catalog display_value="AppViewX Catalog">c513cc240f7cf700c3e6cd8ce1050eab</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-15 05:42:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e939ec4a0fb0b340c3e6cd8ce1050e65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AppViewX Catalog.Renew Certificate</sys_name>
+        <sys_package display_value="Appviewx Vendor App" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_e939ec4a0fb0b340c3e6cd8ce1050e65</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-15 05:42:18</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</application>
+        <file_path/>
+        <instance_id>56a15f5b6f037100ffcca9cc5d3ee498</instance_id>
+        <instance_name>ven01189</instance_name>
+        <name>sc_cat_item_catalog_e939ec4a0fb0b340c3e6cd8ce1050e65</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Renew Certificate">2a192c4a0fb0b340c3e6cd8ce1050e7a</sc_cat_item><sc_catalog display_value="AppViewX Catalog">c513cc240f7cf700c3e6cd8ce1050eab</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-15 05:42:18</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>e939ec4a0fb0b340c3e6cd8ce1050e65</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AppViewX Catalog.Renew Certificate</sys_name><sys_package display_value="Appviewx Vendor App" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope><sys_update_name>sc_cat_item_catalog_e939ec4a0fb0b340c3e6cd8ce1050e65</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-15 05:42:18</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-736630312</payload_hash>
+        <record_name>AppViewX Catalog.Renew Certificate</record_name>
+        <reverted_from/>
+        <source>56e770fb0f60f300c3e6cd8ce1050eac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-15 05:42:18</sys_created_on>
+        <sys_id>2539ec4a0fb0b340c3e6cd8ce1050e68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16a1f84804c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-15 05:42:18</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>2d39ec4a38b0b340e6cb051122a7e167</update_guid>
+        <update_guid_history>2d39ec4a38b0b340e6cb051122a7e167:-736630312</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2019-12-20 11:20:37">5bfef68a1bb9c4d061858480cd4bcbef</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 05:50:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>a11170f99be84754b492ba875060fd09</sys_id>
+        <sys_metadata>e939ec4a0fb0b340c3e6cd8ce1050e65</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AppViewX Catalog.Renew Certificate</sys_name>
+        <sys_package display_value="Appviewx Vendor App" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+        <sys_parent display_value="">2a192c4a0fb0b340c3e6cd8ce1050e7a</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+        <sys_scope_delete display_value="">03b7479598ae45f2930021f61e7749a4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_e939ec4a0fb0b340c3e6cd8ce1050e65</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_e939ec4a0fb0b340c3e6cd8ce1050e65">2539ec4a0fb0b340c3e6cd8ce1050e68</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 05:50:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

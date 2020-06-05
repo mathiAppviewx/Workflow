@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="DELETE">
+        <name>AppViewX Propereties</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-08 08:49:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6db015b70f24f300c3e6cd8ce1050e62</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AppViewX Propereties</sys_name>
+        <sys_package display_value="Mathi_Appviewx" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mathi_Appviewx">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+        <sys_update_name>sys_properties_category_6db015b70f24f300c3e6cd8ce1050e62</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-08 08:50:22</sys_updated_on>
+        <title><![CDATA[<p><span style="font-family: &#39;arial black&#39;, &#39;avant garde&#39;; font-size: 14pt;"><em>Configure AppviewX details here ...</em></span></p>]]></title>
+    </sys_properties_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</application>
+        <file_path/>
+        <instance_id>56a15f5b6f037100ffcca9cc5d3ee498</instance_id>
+        <instance_name>ven01189</instance_name>
+        <name>sys_properties_category_6db015b70f24f300c3e6cd8ce1050e62</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_properties_category"&gt;&lt;sys_properties_category action="INSERT_OR_UPDATE"&gt;&lt;name&gt;AppViewX Propereties&lt;/name&gt;&lt;sys_class_name&gt;sys_properties_category&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-04-08 08:49:14&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;6db015b70f24f300c3e6cd8ce1050e62&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;AppViewX Propereties&lt;/sys_name&gt;&lt;sys_package display_value="Mathi_Appviewx" source="x_avx_mathi_appvie"&gt;85e7bc3b0f60f300c3e6cd8ce1050e63&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Mathi_Appviewx"&gt;85e7bc3b0f60f300c3e6cd8ce1050e63&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_properties_category_6db015b70f24f300c3e6cd8ce1050e62&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-04-08 08:50:22&lt;/sys_updated_on&gt;&lt;title&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="font-family: &amp;#39;arial black&amp;#39;, &amp;#39;avant garde&amp;#39;; font-size: 14pt;"&gt;&lt;em&gt;Configure AppviewX details here ...&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/title&gt;&lt;/sys_properties_category&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1145485693</payload_hash>
+        <record_name>AppViewX Propereties</record_name>
+        <reverted_from/>
+        <source>56e770fb0f60f300c3e6cd8ce1050eac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-08 08:50:22</sys_created_on>
+        <sys_id>982199770f24f300c3e6cd8ce1050ecc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>169fc242c490000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-08 08:50:22</sys_updated_on>
+        <type>System Property Category</type>
+        <update_guid>50219977c124f3003a9d2fb4a775cfcc</update_guid>
+        <update_guid_history>50219977c124f3003a9d2fb4a775cfcc:1145485693,f7d05d773424f300f5780cd70bf8b708:1809326749</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-08 08:58:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_properties_category">sys_properties_category</sys_db_object>
+        <sys_id>1890c3d08d694266b3ecdec30472bb84</sys_id>
+        <sys_metadata>6db015b70f24f300c3e6cd8ce1050e62</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AppViewX Propereties</sys_name>
+        <sys_package display_value="Appviewx Vendor App" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+        <sys_scope_delete display_value="">03b7479598ae45f2930021f61e7749a4</sys_scope_delete>
+        <sys_update_name>sys_properties_category_6db015b70f24f300c3e6cd8ce1050e62</sys_update_name>
+        <sys_update_version display_value="sys_properties_category_6db015b70f24f300c3e6cd8ce1050e62">982199770f24f300c3e6cd8ce1050ecc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-08 08:58:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Create and Push certificate to a Load Balancer">68496c860fb0b340c3e6cd8ce1050e13</sc_cat_item>
+        <sc_category display_value="Certificates">bbf308a40f7cf700c3e6cd8ce1050eac</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-15 05:43:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8e69648a0fb0b340c3e6cd8ce1050e1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certificates.Create and Push certificate to a Load Balancer</sys_name>
+        <sys_package display_value="Appviewx Vendor App" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+        <sys_update_name>sc_cat_item_category_8e69648a0fb0b340c3e6cd8ce1050e1c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-15 05:43:09</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</application>
+        <file_path/>
+        <instance_id>56a15f5b6f037100ffcca9cc5d3ee498</instance_id>
+        <instance_name>ven01189</instance_name>
+        <name>sc_cat_item_category_8e69648a0fb0b340c3e6cd8ce1050e1c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Create and Push certificate to a Load Balancer">68496c860fb0b340c3e6cd8ce1050e13</sc_cat_item><sc_category display_value="Certificates">bbf308a40f7cf700c3e6cd8ce1050eac</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-15 05:43:09</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>8e69648a0fb0b340c3e6cd8ce1050e1c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Certificates.Create and Push certificate to a Load Balancer</sys_name><sys_package display_value="Appviewx Vendor App" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope><sys_update_name>sc_cat_item_category_8e69648a0fb0b340c3e6cd8ce1050e1c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-15 05:43:09</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-247230094</payload_hash>
+        <record_name>Certificates.Create and Push certificate to a Load Balancer</record_name>
+        <reverted_from/>
+        <source>56e770fb0f60f300c3e6cd8ce1050eac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-15 05:43:09</sys_created_on>
+        <sys_id>c269648a0fb0b340c3e6cd8ce1050e1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16a1f8548920000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-15 05:43:09</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>ca69648a59b0b340992ff4f987aaf31e</update_guid>
+        <update_guid_history>ca69648a59b0b340992ff4f987aaf31e:-247230094</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2019-12-03 19:10:37">0a87893c1be5885061858480cd4bcb88</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-03 13:40:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0ad28746106f4716827b8bc0a1ef9c11</sys_id>
+        <sys_metadata>8e69648a0fb0b340c3e6cd8ce1050e1c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certificates.Create and Push certificate to a Load Balancer</sys_name>
+        <sys_package display_value="Appviewx Vendor App" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+        <sys_parent display_value="">68496c860fb0b340c3e6cd8ce1050e13</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+        <sys_scope_delete display_value="">03b7479598ae45f2930021f61e7749a4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_8e69648a0fb0b340c3e6cd8ce1050e1c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_8e69648a0fb0b340c3e6cd8ce1050e1c">c269648a0fb0b340c3e6cd8ce1050e1f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-03 13:40:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

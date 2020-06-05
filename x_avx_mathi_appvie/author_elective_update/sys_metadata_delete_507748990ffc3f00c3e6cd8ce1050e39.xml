@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Copy of Create Applicaction via AppViewX">bf7992d50f782300c3e6cd8ce1050ee8</sc_cat_item>
+        <sc_category display_value="Internal items">d62881760f935700c3e6cd8ce1050ec8</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-26 09:46:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>737992d50f782300c3e6cd8ce1050ef1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Internal items.Copy of Create Applicaction via AppViewX</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name>sc_cat_item_category_737992d50f782300c3e6cd8ce1050ef1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-26 09:46:17</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global">global</application>
+        <file_path/>
+        <instance_id>56a15f5b6f037100ffcca9cc5d3ee498</instance_id>
+        <instance_name>ven01189</instance_name>
+        <name>sc_cat_item_category_737992d50f782300c3e6cd8ce1050ef1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of Create Applicaction via AppViewX">bf7992d50f782300c3e6cd8ce1050ee8</sc_cat_item><sc_category display_value="Internal items">d62881760f935700c3e6cd8ce1050ec8</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-09-26 09:46:17</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>737992d50f782300c3e6cd8ce1050ef1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Internal items.Copy of Create Applicaction via AppViewX</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_737992d50f782300c3e6cd8ce1050ef1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-09-26 09:46:17</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>560744699</payload_hash>
+        <record_name>Internal items.Copy of Create Applicaction via AppViewX</record_name>
+        <reverted_from/>
+        <source>89517bc00f300200c3e6cd8ce1050e8a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-26 09:46:17</sys_created_on>
+        <sys_id>7b7996d50f782300c3e6cd8ce1050ed6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1661545a3c70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-26 09:46:17</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>b37996d565782300dd0711c5bafbdbd6</update_guid>
+        <update_guid_history>b37996d565782300dd0711c5bafbdbd6:560744699</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2019-03-22 17:17:16">f1965ad20f18bfc0c3e6cd8ce1050e73</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 19:19:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>507748990ffc3f00c3e6cd8ce1050e39</sys_id>
+        <sys_metadata>737992d50f782300c3e6cd8ce1050ef1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Appviewx Vendor App" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+        <sys_parent display_value="AppDemo - ZTP_Build Applicaction via AppViewX">1c77c4590ffc3f00c3e6cd8ce1050ea8</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+        <sys_scope_delete display_value="">3a08cd4d4e9544da90041791f25d2984</sys_scope_delete>
+        <sys_update_name>sys_metadata_delete_507748990ffc3f00c3e6cd8ce1050e39</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_737992d50f782300c3e6cd8ce1050ef1">7b7996d50f782300c3e6cd8ce1050ed6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-12 19:19:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

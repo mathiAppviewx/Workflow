@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Mathi_Appviewx">ede7bcbb0f60f300c3e6cd8ce1050e62</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Properties</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query>system_properties_ui.do?sysparm_category=AppViewX&amp;sysparm_title=AppViewX</query>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-08 07:42:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>b5118dbb0fa0f300c3e6cd8ce1050e23</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Properties</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mathi_Appviewx" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mathi_Appviewx">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+        <sys_update_name>sys_app_module_b5118dbb0fa0f300c3e6cd8ce1050e23</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-08 08:58:57</sys_updated_on>
+        <timeline_page/>
+        <title>Properties</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</application>
+        <file_path/>
+        <instance_id>56a15f5b6f037100ffcca9cc5d3ee498</instance_id>
+        <instance_name>ven01189</instance_name>
+        <name>sys_app_module_b5118dbb0fa0f300c3e6cd8ce1050e23</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Mathi_Appviewx">ede7bcbb0f60f300c3e6cd8ce1050e62</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Properties</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order/><override_menu_roles>false</override_menu_roles><query>system_properties_ui.do?sysparm_category=AppViewX&amp;sysparm_title=AppViewX</query><report/><roles/><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-08 07:42:17</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>b5118dbb0fa0f300c3e6cd8ce1050e23</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Properties</sys_name><sys_overrides/><sys_package display_value="Mathi_Appviewx" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Mathi_Appviewx">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope><sys_update_name>sys_app_module_b5118dbb0fa0f300c3e6cd8ce1050e23</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-08 08:58:57</sys_updated_on><timeline_page/><title>Properties</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1991098079</payload_hash>
+        <record_name>Properties</record_name>
+        <reverted_from/>
+        <source>56e770fb0f60f300c3e6cd8ce1050eac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-08 08:58:57</sys_created_on>
+        <sys_id>7513d1bb0f24f300c3e6cd8ce1050e42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>169fc2c057a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-08 08:58:57</sys_updated_on>
+        <type>Module</type>
+        <update_guid>3d13d1bba024f30052dde951d3996441</update_guid>
+        <update_guid_history>3d13d1bba024f30052dde951d3996441:-1991098079,4f8299f7ab24f3005fa42cdfc5b59ea0:-749233972,728101fb17a0f3004b796690ee0a0689:1080682030</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2019-04-08 14:43:12">2256ddff0f24f300c3e6cd8ce1050ece</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-08 09:13:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>34244458fa644b848b64aa484c548710</sys_id>
+        <sys_metadata>b5118dbb0fa0f300c3e6cd8ce1050e23</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Properties</sys_name>
+        <sys_package display_value="Appviewx Vendor App" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+        <sys_scope_delete display_value="">03b7479598ae45f2930021f61e7749a4</sys_scope_delete>
+        <sys_update_name>sys_app_module_b5118dbb0fa0f300c3e6cd8ce1050e23</sys_update_name>
+        <sys_update_version display_value="sys_app_module_b5118dbb0fa0f300c3e6cd8ce1050e23">7513d1bb0f24f300c3e6cd8ce1050e42</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-08 09:13:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

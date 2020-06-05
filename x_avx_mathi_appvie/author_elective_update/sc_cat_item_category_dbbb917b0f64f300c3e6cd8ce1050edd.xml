@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item/>
+        <sc_category display_value="Certificates">8fab117b0f64f300c3e6cd8ce1050eb2</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-08 09:36:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dbbb917b0f64f300c3e6cd8ce1050edd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certificates.</sys_name>
+        <sys_package display_value="Mathi_Appviewx" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mathi_Appviewx">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+        <sys_update_name>sc_cat_item_category_dbbb917b0f64f300c3e6cd8ce1050edd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-08 09:36:56</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</application>
+        <file_path/>
+        <instance_id>56a15f5b6f037100ffcca9cc5d3ee498</instance_id>
+        <instance_name>ven01189</instance_name>
+        <name>sc_cat_item_category_dbbb917b0f64f300c3e6cd8ce1050edd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item/><sc_category display_value="Certificates">8fab117b0f64f300c3e6cd8ce1050eb2</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-08 09:36:56</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>dbbb917b0f64f300c3e6cd8ce1050edd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Certificates.</sys_name><sys_package display_value="Mathi_Appviewx" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Mathi_Appviewx">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope><sys_update_name>sc_cat_item_category_dbbb917b0f64f300c3e6cd8ce1050edd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-08 09:36:56</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>2115910289</payload_hash>
+        <record_name>Certificates.</record_name>
+        <reverted_from/>
+        <source>56e770fb0f60f300c3e6cd8ce1050eac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-08 09:36:56</sys_created_on>
+        <sys_id>eecb157b0f64f300c3e6cd8ce1050e6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>169fc4ece8a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-08 09:36:56</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>e6cb157b1364f30002620f1dfaf6386f</update_guid>
+        <update_guid_history>e6cb157b1364f30002620f1dfaf6386f:2115910289</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2019-04-08 17:22:37">86dabd7f0f28f300c3e6cd8ce1050e0d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-08 11:52:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>16f395a192f84d4d93c6c735218d9f81</sys_id>
+        <sys_metadata>dbbb917b0f64f300c3e6cd8ce1050edd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certificates.</sys_name>
+        <sys_package display_value="Appviewx Vendor App" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+        <sys_scope_delete display_value="">03b7479598ae45f2930021f61e7749a4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_dbbb917b0f64f300c3e6cd8ce1050edd</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_dbbb917b0f64f300c3e6cd8ce1050edd">eecb157b0f64f300c3e6cd8ce1050e6f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-08 11:52:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

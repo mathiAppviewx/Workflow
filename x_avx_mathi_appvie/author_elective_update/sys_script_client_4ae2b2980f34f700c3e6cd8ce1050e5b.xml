@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>appviewx_create_certificate</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	jslog("Executing the client scripts");
+		var cn = g_form.getValue('enter_common_name');
+		var email  = g_form.getValue('email_id');
+
+		var response;
+		var ga = new GlideAjax('appviewx_create_certificate');
+			ga.addParam('sysparm_name', 'createRequest');
+			ga.addParam('cn',cn);
+			ga.addParam('email',email);
+
+			ga.getXML(AppViewXResponse);
+	
+		function AppViewXResponse(response) {
+		  var answer = response.responseXML.documentElement.getAttribute("answer");
+		  jslog(answer); }
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 05:25:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>4ae2b2980f34f700c3e6cd8ce1050e5b</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>appviewx_create_certificate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mathi_Appviewx" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mathi_Appviewx">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+        <sys_update_name>sys_script_client_4ae2b2980f34f700c3e6cd8ce1050e5b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 06:34:49</sys_updated_on>
+        <table>x_avx_mathi_appvie_generate_appviewx_certificate</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</application>
+        <file_path/>
+        <instance_id>56a15f5b6f037100ffcca9cc5d3ee498</instance_id>
+        <instance_name>ven01189</instance_name>
+        <name>sys_script_client_4ae2b2980f34f700c3e6cd8ce1050e5b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;sys_created_on&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;appviewx_create_certificate&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+	jslog("Executing the client scripts");
+		var cn = g_form.getValue('enter_common_name');
+		var email  = g_form.getValue('email_id');
+
+		var response;
+		var ga = new GlideAjax('appviewx_create_certificate');
+			ga.addParam('sysparm_name', 'createRequest');
+			ga.addParam('cn',cn);
+			ga.addParam('email',email);
+
+			ga.getXML(AppViewXResponse);
+	
+		function AppViewXResponse(response) {
+		  var answer = response.responseXML.documentElement.getAttribute("answer");
+		  jslog(answer); }
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-04-10 05:25:17&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;4ae2b2980f34f700c3e6cd8ce1050e5b&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_name&gt;appviewx_create_certificate&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Mathi_Appviewx" source="x_avx_mathi_appvie"&gt;85e7bc3b0f60f300c3e6cd8ce1050e63&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Mathi_Appviewx"&gt;85e7bc3b0f60f300c3e6cd8ce1050e63&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_4ae2b2980f34f700c3e6cd8ce1050e5b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-04-10 06:34:49&lt;/sys_updated_on&gt;&lt;table&gt;x_avx_mathi_appvie_generate_appviewx_certificate&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1638611593</payload_hash>
+        <record_name>appviewx_create_certificate</record_name>
+        <reverted_from/>
+        <source>56e770fb0f60f300c3e6cd8ce1050eac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 06:34:49</sys_created_on>
+        <sys_id>ca458b180fb4f700c3e6cd8ce1050eea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16a05f4c9790000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 06:34:49</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>82458b18dcb4f700909fe4ffb6a1beea</update_guid>
+        <update_guid_history>82458b18dcb4f700909fe4ffb6a1beea:-1638611593,0303475465b4f700a7b93d485ef56e68:-28025430,53d10b54fcb4f700d17b8c4509597ed8:1870356327,da818f1422b4f70031fb536ad2d68266:103425127,4771cb504db4f700c4787406e9ad4845:1281707847,09ceba9c6874f700c4017f6216624e54:1524874789,ab9eb69c1b74f700996165e140219763:-1232413311,046e3e9c1574f700ce726c6015272dfa:-1918224810,912eb65c6274f7001e8340e0c335614c:-1253605544,3f8dbad8bc74f700019f4c2a5e308ac6:1336312503,89ebb298e474f700e44691120c8a24ba:205025145,a3bb72988374f70035ba65f80bc8f663:1541954585,60797ed06074f700497bea642f2a812b:1672393387,3a587a90fb74f7003cf9f4299d468096:1366504935,b408fe90d674f700763f0a0c5afd1754:-1051109291,70b7f690b574f70060859e447dd29b8f:327204341,99677a506e74f7009d57df8afc9711f0:-1411656709,5407361c0234f70022fa1aa1d6b5ded6:175632216,c466b69c9934f700b4342c0794b6781e:-1122663470,35167adcd534f700314becbee0bd9f96:1902111284,7f553a98e134f7009b6185a18b178f45:712901515</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 06:49:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>70035913ebb74a328238669734751e84</sys_id>
+        <sys_metadata>4ae2b2980f34f700c3e6cd8ce1050e5b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>appviewx_create_certificate</sys_name>
+        <sys_package display_value="Appviewx Vendor App" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+        <sys_parent display_value="Generate Appviewx Certificate">e183bd730f28f300c3e6cd8ce1050e2b</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+        <sys_scope_delete display_value="">03b7479598ae45f2930021f61e7749a4</sys_scope_delete>
+        <sys_update_name>sys_script_client_4ae2b2980f34f700c3e6cd8ce1050e5b</sys_update_name>
+        <sys_update_version display_value="sys_script_client_4ae2b2980f34f700c3e6cd8ce1050e5b">ca458b180fb4f700c3e6cd8ce1050eea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 06:49:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

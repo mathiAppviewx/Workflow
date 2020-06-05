@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Certificate Request Import" max_length="40" name="x_avx_mathi_appvie_certificate_request_i" sizeclass="0" type="collection">
+        <element attributes="import_attribute_name=u_created_by,edge_encryption_enabled=true" label="Created By" max_length="40" name="u_created_by" type="string"/>
+        <element attributes="import_attribute_name=u_created_on,edge_encryption_enabled=true" label="Created On" max_length="40" name="u_created_on" type="string"/>
+        <element attributes="import_attribute_name=u_reference_id,edge_encryption_enabled=true" label="Reference ID" max_length="40" name="u_reference_id" type="string"/>
+        <element attributes="import_attribute_name=u_request_id,edge_encryption_enabled=true" label="Request ID" max_length="40" name="u_request_id" type="string"/>
+        <element attributes="import_attribute_name=u_request_status,edge_encryption_enabled=true" label="Request Status" max_length="40" name="u_request_status" type="string"/>
+        <element attributes="import_attribute_name=u_workflow_name,edge_encryption_enabled=true" label="Workflow Name" max_length="40" name="u_workflow_name" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Mathi_Appviewx</name>
+        <order/>
+        <roles>x_avx_mathi_appvie.user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-08 07:01:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d2487cfb0f60f300c3e6cd8ce1050eef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mathi_Appviewx</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mathi_Appviewx" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mathi_Appviewx">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+        <sys_update_name>sys_ui_application_d2487cfb0f60f300c3e6cd8ce1050eef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-08 07:01:50</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</application>
+        <file_path/>
+        <instance_id>56a15f5b6f037100ffcca9cc5d3ee498</instance_id>
+        <instance_name>ven01189</instance_name>
+        <name>sys_ui_application_d2487cfb0f60f300c3e6cd8ce1050eef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Mathi_Appviewx</name><order/><roles>x_avx_mathi_appvie.user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-08 07:01:50</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>d2487cfb0f60f300c3e6cd8ce1050eef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mathi_Appviewx</sys_name><sys_overrides/><sys_package display_value="Mathi_Appviewx" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Mathi_Appviewx">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope><sys_update_name>sys_ui_application_d2487cfb0f60f300c3e6cd8ce1050eef</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-08 07:01:50</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>149401436</payload_hash>
+        <record_name>Mathi_Appviewx</record_name>
+        <reverted_from/>
+        <source>56e770fb0f60f300c3e6cd8ce1050eac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-08 07:01:50</sys_created_on>
+        <sys_id>da487cfb0f60f300c3e6cd8ce1050ef0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>169fbc0cc310000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-08 07:01:50</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>d2487cfb1e60f3008e7418b2de1d29f0</update_guid>
+        <update_guid_history>d2487cfb1e60f3008e7418b2de1d29f0:149401436</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-18 06:18:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>8ebb00983ce240d4acf7492fa02cf989</sys_id>
+        <sys_metadata>d2487cfb0f60f300c3e6cd8ce1050eef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mathi_Appviewx</sys_name>
+        <sys_package display_value="Appviewx Vendor App" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+        <sys_scope_delete display_value="">03b7479598ae45f2930021f61e7749a4</sys_scope_delete>
+        <sys_update_name>sys_ui_application_d2487cfb0f60f300c3e6cd8ce1050eef</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_d2487cfb0f60f300c3e6cd8ce1050eef">da487cfb0f60f300c3e6cd8ce1050ef0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-18 06:18:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

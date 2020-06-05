@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_avx_mathi_appvie.appviewx_create_certificate</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>appviewx_create_certificate</name>
+        <script><![CDATA[var appviewx_create_certificate = Class.create();
+appviewx_create_certificate.prototype = Object.extendsObject(gobal.AbstractAjaxProcessor, {
+	createRequest: function() {
+				var sessionid = this._createSession();
+				var url = gs.getProperty("x_avx_mathi_appvie.AppViewX URL");
+				var cn = this.getParameter('cn');
+				var email = this.getParameter('email');
+				var payload = "{\"payload\": {\"header\": {\"workflowName\": \"Generate AppViewX Certificate\"},\"data\": {\"input\": {\"requestData\": [{\"scenario\": \"scenario\",\"sequenceNo\": 1,\"fieldInfo\": {\"commonname\":\""+ cn +"\"}}]},\"task_action\": 1}}}";
+				var r = new sn_ws.RESTMessageV2();
+				r.setEndpoint(url+"/avxapi/visualworkflow-submit-request?gwkey=f000ca01&gwsource=web");
+				r.setRequestHeader("SessionId", sessionid);
+				r.setRequestHeader("Content-Type", "application/json");
+				r.setHttpMethod("post");
+				r.setRequestBody(payload);
+				r.setHttpTimeout(10000);
+				var response = r.execute();
+				var responseBody = response.getBody();
+				return responseBody;
+				
+			},
+			_createSession: function() {
+				
+				var r = new sn_ws.RESTMessageV2();
+				var url = gs.getProperty("x_avx_mathi_appvie.AppViewX URL");
+				var username = gs.getProperty("x_avx_mathi_appvie.Username");
+				var password = gs.getProperty("x_avx_mathi_appvie.Password");
+				r.setEndpoint(url+"/avxapi/acctmgmt-perform-login?gwkey=f000ca01&gwsource=web");
+				r.setHttpMethod("post");
+				r.setRequestHeader("username", username);
+				r.setRequestHeader("password", password);
+				r.setRequestHeader("Content-Type", "application/json");
+				r.setRequestBody('{\"payload\":{\n}\n}');
+				var response = r.execute();
+				var responseBody = JSON.parse(response.getBody());
+				var sessionid = responseBody["response"]["sessionId"];
+				return sessionid;
+				},
+    type: 'appviewx_create_certificate'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 05:24:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5c44b21c0f34f700c3e6cd8ce1050ecd</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>appviewx_create_certificate</sys_name>
+        <sys_package display_value="Mathi_Appviewx" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mathi_Appviewx">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+        <sys_update_name>sys_script_include_5c44b21c0f34f700c3e6cd8ce1050ecd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 06:28:39</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</application>
+        <file_path/>
+        <instance_id>56a15f5b6f037100ffcca9cc5d3ee498</instance_id>
+        <instance_name>ven01189</instance_name>
+        <name>sys_script_include_5c44b21c0f34f700c3e6cd8ce1050ecd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_avx_mathi_appvie.appviewx_create_certificate&lt;/api_name&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;appviewx_create_certificate&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var appviewx_create_certificate = Class.create();
+appviewx_create_certificate.prototype = Object.extendsObject(gobal.AbstractAjaxProcessor, {
+	createRequest: function() {
+				var sessionid = this._createSession();
+				var url = gs.getProperty("x_avx_mathi_appvie.AppViewX URL");
+				var cn = this.getParameter('cn');
+				var email = this.getParameter('email');
+				var payload = "{\"payload\": {\"header\": {\"workflowName\": \"Generate AppViewX Certificate\"},\"data\": {\"input\": {\"requestData\": [{\"scenario\": \"scenario\",\"sequenceNo\": 1,\"fieldInfo\": {\"commonname\":\""+ cn +"\"}}]},\"task_action\": 1}}}";
+				var r = new sn_ws.RESTMessageV2();
+				r.setEndpoint(url+"/avxapi/visualworkflow-submit-request?gwkey=f000ca01&amp;gwsource=web");
+				r.setRequestHeader("SessionId", sessionid);
+				r.setRequestHeader("Content-Type", "application/json");
+				r.setHttpMethod("post");
+				r.setRequestBody(payload);
+				r.setHttpTimeout(10000);
+				var response = r.execute();
+				var responseBody = response.getBody();
+				return responseBody;
+				
+			},
+			_createSession: function() {
+				
+				var r = new sn_ws.RESTMessageV2();
+				var url = gs.getProperty("x_avx_mathi_appvie.AppViewX URL");
+				var username = gs.getProperty("x_avx_mathi_appvie.Username");
+				var password = gs.getProperty("x_avx_mathi_appvie.Password");
+				r.setEndpoint(url+"/avxapi/acctmgmt-perform-login?gwkey=f000ca01&amp;gwsource=web");
+				r.setHttpMethod("post");
+				r.setRequestHeader("username", username);
+				r.setRequestHeader("password", password);
+				r.setRequestHeader("Content-Type", "application/json");
+				r.setRequestBody('{\"payload\":{\n}\n}');
+				var response = r.execute();
+				var responseBody = JSON.parse(response.getBody());
+				var sessionid = responseBody["response"]["sessionId"];
+				return sessionid;
+				},
+    type: 'appviewx_create_certificate'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-04-10 05:24:33&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;5c44b21c0f34f700c3e6cd8ce1050ecd&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;appviewx_create_certificate&lt;/sys_name&gt;&lt;sys_package display_value="Mathi_Appviewx" source="x_avx_mathi_appvie"&gt;85e7bc3b0f60f300c3e6cd8ce1050e63&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Mathi_Appviewx"&gt;85e7bc3b0f60f300c3e6cd8ce1050e63&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_5c44b21c0f34f700c3e6cd8ce1050ecd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-04-10 06:28:39&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>848847959</payload_hash>
+        <record_name>appviewx_create_certificate</record_name>
+        <reverted_from/>
+        <source>56e770fb0f60f300c3e6cd8ce1050eac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 06:28:39</sys_created_on>
+        <sys_id>37d3cb180fb4f700c3e6cd8ce1050e08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16a05ef23f00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 06:28:39</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>fbd3cb1827b4f700b94baa153a06cf07</update_guid>
+        <update_guid_history>fbd3cb1827b4f700b94baa153a06cf07:848847959,1e534f5424b4f700acee173eed45dc08:1168370156,653343180bb4f7007c9a2c81eab92673:1609026424,cd030354bab4f70099a519ef1133e850:1168370156,a7f14b5418b4f700feb0227d0a8134bd:207183997,1afebadcdc74f70023e678e7d99a491f:-1635330078,50acba987274f7003703f6706eba6231:207183997,7e8872147e74f70099cd0bb1b3f860d4:1921084500,47e63a106a74f700a45fd8c7176945ea:922614708,4935fe989734f70032a7a6966f24eb9a:-940034535</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 06:49:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>503884bc87fc432a9a9b6ce119138c44</sys_id>
+        <sys_metadata>5c44b21c0f34f700c3e6cd8ce1050ecd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>appviewx_create_certificate</sys_name>
+        <sys_package display_value="Appviewx Vendor App" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+        <sys_scope_delete display_value="">03b7479598ae45f2930021f61e7749a4</sys_scope_delete>
+        <sys_update_name>sys_script_include_5c44b21c0f34f700c3e6cd8ce1050ecd</sys_update_name>
+        <sys_update_version display_value="sys_script_include_5c44b21c0f34f700c3e6cd8ce1050ecd">37d3cb180fb4f700c3e6cd8ce1050e08</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 06:49:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

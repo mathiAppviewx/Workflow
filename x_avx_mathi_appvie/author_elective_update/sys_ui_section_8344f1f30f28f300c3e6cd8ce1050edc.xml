@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Certificate Details" section_id="8344f1f30f28f300c3e6cd8ce1050edc" sys_domain="global" table="x_avx_mathi_appvie_generate_appviewx_certificate" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-08 11:30:51</sys_created_on>
+            <sys_id>4bd57d770f28f300c3e6cd8ce1050e6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Certificate Details" display_value="Certificate Details" name="x_avx_mathi_appvie_generate_appviewx_certificate" sys_domain="global" view="Default view">8344f1f30f28f300c3e6cd8ce1050edc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-08 11:30:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-06 11:06:54</sys_created_on>
+            <sys_id>9e2f27921b0b770061858480cd4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Certificate Details" display_value="Certificate Details" name="x_avx_mathi_appvie_generate_appviewx_certificate" sys_domain="global" view="Default view">8344f1f30f28f300c3e6cd8ce1050edc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-06 11:06:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Certificate Details</caption>
+            <header>false</header>
+            <name>x_avx_mathi_appvie_generate_appviewx_certificate</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-08 11:24:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>8344f1f30f28f300c3e6cd8ce1050edc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Certificate Details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Appviewx Vendor App" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+            <sys_update_name>sys_ui_section_8344f1f30f28f300c3e6cd8ce1050edc</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-08 11:26:49</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</application>
+        <file_path/>
+        <instance_id>56a15f5b6f037100ffcca9cc5d3ee498</instance_id>
+        <instance_name>ven01189</instance_name>
+        <name>sys_ui_section_8344f1f30f28f300c3e6cd8ce1050edc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Certificate Details" section_id="8344f1f30f28f300c3e6cd8ce1050edc" sys_domain="global" table="x_avx_mathi_appvie_generate_appviewx_certificate" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-08 11:30:51</sys_created_on><sys_id>4bd57d770f28f300c3e6cd8ce1050e6b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Certificate Details" display_value="Certificate Details" name="x_avx_mathi_appvie_generate_appviewx_certificate" sys_domain="global" view="Default view">8344f1f30f28f300c3e6cd8ce1050edc</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-08 11:30:51</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>approval</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-08-06 11:06:54</sys_created_on><sys_id>9e2f27921b0b770061858480cd4bcb84</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Certificate Details" display_value="Certificate Details" name="x_avx_mathi_appvie_generate_appviewx_certificate" sys_domain="global" view="Default view">8344f1f30f28f300c3e6cd8ce1050edc</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-08-06 11:06:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Certificate Details</caption><header>false</header><name>x_avx_mathi_appvie_generate_appviewx_certificate</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-04-08 11:24:01</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>8344f1f30f28f300c3e6cd8ce1050edc</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Certificate Details</sys_name><sys_overrides/><sys_package display_value="Appviewx Vendor App" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope><sys_update_name>sys_ui_section_8344f1f30f28f300c3e6cd8ce1050edc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-04-08 11:26:49</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>546020827</payload_hash>
+        <record_name>Generate Appviewx Certificate</record_name>
+        <reverted_from/>
+        <source>56e770fb0f60f300c3e6cd8ce1050eac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-06 11:06:54</sys_created_on>
+        <sys_id>922f27921b0b770061858480cd4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16c669c4b9e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-06 11:06:54</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>5a2f2792990b77005c4744194c4b2186</update_guid>
+        <update_guid_history>5a2f2792990b77005c4744194c4b2186:546020827,0bd57d775228f300e92cd80eea7e146c:-457009092,85a5f577c328f3000e0b5884ec14daa4:-1779018273,0b55f5373f28f30083e9951470c94690:473732446,18f4f1373028f3002477a14c0ad461f9:-130922515,44f4f137ea28f3003580b3fdd27ecf25:-1271936922,0f44f1f3c728f30086d260a4e439b4e4:304840012,c744f1f3aa28f3008fb2ea07a0822cde:595070482</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-06 11:09:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1f7f6915169f4bc18edfd1a946b10b79</sys_id>
+        <sys_metadata>8344f1f30f28f300c3e6cd8ce1050edc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certificate Details</sys_name>
+        <sys_package display_value="Appviewx Vendor App" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+        <sys_parent display_value="Generate Appviewx Certificate">e183bd730f28f300c3e6cd8ce1050e2b</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+        <sys_scope_delete display_value="">03b7479598ae45f2930021f61e7749a4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_8344f1f30f28f300c3e6cd8ce1050edc</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_8344f1f30f28f300c3e6cd8ce1050edc">922f27921b0b770061858480cd4bcb87</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-06 11:09:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

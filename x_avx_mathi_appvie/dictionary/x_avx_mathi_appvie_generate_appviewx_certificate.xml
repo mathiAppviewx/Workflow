@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Generate Appviewx Certificate" max_length="40" name="x_avx_mathi_appvie_generate_appviewx_certificate" sizeclass="21" type="collection">
+        <element choice="1" label="Approval" max_length="40" name="approval" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" value="rejected"/>
+            </choice>
+        </element>
+        <element label="Email Id" max_length="40" name="email_id" type="string"/>
+        <element label="Enter  common name" max_length="40" name="enter_common_name" type="string"/>
+        <element label="Generated Request ID" max_length="40" name="generate_request_id" type="string"/>
+        <element choice="1" label="Request status" max_length="40" name="request_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Inprogress" sequence="0" value="inprogress"/>
+                <element inactive_on_update="false" label="Completed" sequence="1" value="completed"/>
+                <element inactive_on_update="false" label="Failed" sequence="2" value="failed"/>
+            </choice>
+        </element>
+    </element>
+</database>

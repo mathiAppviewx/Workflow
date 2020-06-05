@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Generate Appviewx Certificate" language="en" table="x_avx_mathi_appvie_generate_appviewx_certificate">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Generate Appviewx Certificate</label>
+            <language>en</language>
+            <name>x_avx_mathi_appvie_generate_appviewx_certificate</name>
+            <plural>Generate Appviewx Certificates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-08 11:23:16</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4c24bdb30f28f300c3e6cd8ce1050eb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Generate Appviewx Certificate</sys_name>
+            <sys_package display_value="Appviewx Vendor App" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+            <sys_update_name>sys_documentation_x_avx_mathi_appvie_generate_appviewx_certificate__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-08 11:23:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

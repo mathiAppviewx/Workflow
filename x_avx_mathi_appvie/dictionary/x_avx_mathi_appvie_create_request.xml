@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Create Request" max_length="40" name="x_avx_mathi_appvie_create_request" sizeclass="2" type="collection">
+        <element label="Instance URL" max_length="100" name="instance_url" type="string"/>
+        <element label="Password" max_length="40" name="password" type="password"/>
+        <element hint="Sample payload : {&#13;&#10;&#9;&quot;payload&quot;: {&#13;&#10;&#9;&#9;&quot;data&quot;: {&#13;&#10;&#9;&#9;&#9;&quot;input&quot;: {&#13;&#10;&#9;&#9;&#9;&#9;&quot;requestData&quot;: [&#13;&#10;&#9;&#9;&#9;&#9;&#9;{&#13;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&quot;sequenceNo&quot;: 1,&#13;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&quot;scenario&quot;: &quot;scenario&quot;,&#13;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&quot;fieldInfo&quot;: {&#13;&#10;                                                            &quot;fqdn&quot;:&quot;appviewx.com&quot;,&#13;&#10;                                                             &quot;free_ip&quot; : &quot;192.178.12.12&quot;&#13;&#10;&#9;&#9;&#9;&#9;&#9;&#9;}&#13;&#10;&#9;&#9;&#9;&#9;&#9;}&#13;&#10;&#9;&#9;&#9;&#9;]&#13;&#10;&#9;&#9;&#9;},&#13;&#10;&#9;&#9;&#9;&quot;task_action&quot;: 1&#13;&#10;&#9;&#9;},&#13;&#10;&#9;&#9;&quot;header&quot;: {&#13;&#10;&#9;&#9;&#9;&quot;workflowName&quot;: &quot;checktest&quot;&#13;&#10;&#9;&#9;}&#13;&#10;&#9;}&#13;&#10;}" label="Payload" max_length="500" name="payload" type="string_full_utf8"/>
+        <element label="Username" max_length="40" name="username" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Generated Request ID" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request status" max_length="40" name="u_string_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Inprogress" sequence="0" value="inprogress"/>
+                <element inactive_on_update="false" label="Completed" sequence="1" value="completed"/>
+                <element inactive_on_update="false" label="Failed" sequence="2" value="failed"/>
+            </choice>
+        </element>
+        <element hint="Sample Workflow Name :  Infoblow - Create DNS Records" label="Workflow  Name" max_length="100" name="workflow_name" type="string"/>
+    </element>
+</database>

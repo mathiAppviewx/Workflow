@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="instance_url" label="Instance URL" language="en" table="x_avx_mathi_appvie_create_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>instance_url</element>
+            <help/>
+            <hint/>
+            <label>Instance URL</label>
+            <language>en</language>
+            <name>x_avx_mathi_appvie_create_request</name>
+            <plural>Instance URLs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-08 07:24:26</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ad7df4370fa0f300c3e6cd8ce1050e8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Instance URL</sys_name>
+            <sys_package display_value="Appviewx Vendor App" source="x_avx_mathi_appvie">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Appviewx Vendor App">85e7bc3b0f60f300c3e6cd8ce1050e63</sys_scope>
+            <sys_update_name>sys_documentation_x_avx_mathi_appvie_create_request_instance_url_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-08 07:24:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
